@@ -8,7 +8,7 @@ A collaborative framework of logic rule-based model and neural network-based mod
 ### 🙏 Acknowledgments
 Our codebase is partially built upon the following open-source projects. We sincerely thank the authors for their excellent work and for sharing their code:
 
-* [TLogic]{https://github.com/liu-yushan/TLogic} - Used the rule generation code for the logical rule module.
+* [TLogic](https://github.com/liu-yushan/TLogic) - Used the rule generation code for the logical rule module.
 * [ECEformer](https://github.com/seeyourmind/TKGElib) - Used as neural network module.
 
 ------------------------------
