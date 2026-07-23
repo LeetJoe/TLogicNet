@@ -8,8 +8,8 @@ A collaborative framework of logic rule-based model and neural network-based mod
 ### 🙏 Acknowledgments
 Our codebase is partially built upon the following open-source projects. We sincerely thank the authors for their excellent work and for sharing their code:
 
-* TLogic - Used the rule generation code for the logical rule module.
-* ECEformer - Used as neural network module.
+* [TLogic]{https://github.com/liu-yushan/TLogic} - Used the rule generation code for the logical rule module.
+* [ECEformer](https://github.com/seeyourmind/TKGElib) - Used as neural network module.
 
 ------------------------------
 ## ⚙️ 2. Installation
@@ -28,7 +28,7 @@ Clone this repository and install the required dependencies via requirements.txt
 pip install -r requirements.txt
 ```
 
-Follow [our fork of ECEformer](git@github.com:LeetJoe/TKGElib.git) to install the TKGE package.
+Follow [our fork of ECEformer](https://github.com/LeetJoe/TKGElib) to install the TKGE package.
 
 The source code of `mln/mln.jar` see [here](#todo)(coming soon).
 
