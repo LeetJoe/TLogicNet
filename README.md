@@ -1,11 +1,9 @@
 ## TLogicNet
 
-todo
-
 ------------------------------
 ## 📌 1. Overview
 
-todo
+A collaborative framework of logic rule-based model and neural network-based model for Temporal Knowledge Graph Completion.
 
 ### 🙏 Acknowledgments
 Our codebase is partially built upon the following open-source projects. We sincerely thank the authors for their excellent work and for sharing their code:
