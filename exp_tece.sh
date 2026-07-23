@@ -243,7 +243,7 @@ do
   kge_base="${exp_base}"/"${i}"/kge
 
   if [[ i -eq 0 ]]; then
-    java -Xms"${jvm_min_heap}" -Xmx"${jvm_max_heap}" -jar mln/mln_test.jar -rr "${random_ratio}" -rb "${rule_batch}" -et "${event_threshold}" \
+    java -Xms"${jvm_min_heap}" -Xmx"${jvm_max_heap}" -jar mln/mln.jar -rr "${random_ratio}" -rb "${rule_batch}" -et "${event_threshold}" \
     -t ${threads} -tg "${start_time_gap}" -d "${data_base}" -r "${exp_base}"/tlogic_rules_"${walk_num}".txt -s "${MLN_SEED_JAVA}" \
     -tr "${min_rule_conf}" -ms "${min_rule_body_support}" -i "${iterations}" -lr "${learn_rate}" -sr "${mln_base}"/rules.txt \
     -sp "${mln_base}"/pred_hidden.txt -lt "${mln_base}"/test_linked_batch.txt -an "${mln_base}"/annotation.txt \
@@ -252,7 +252,7 @@ do
     i_pre=$(( i - 1 ))
     python mln/filter_annotation.py -o "${exp_base}"/"${i_pre}"/kge/annotation.txt  -s "${mln_base}"/annotation.txt -t "${valid_thresh}"
 
-    java -Xms"${jvm_min_heap}" -Xmx"${jvm_max_heap}" -jar mln/mln_test.jar -rr "${random_ratio}" -rb "${rule_batch}" -et "${event_threshold}" \
+    java -Xms"${jvm_min_heap}" -Xmx"${jvm_max_heap}" -jar mln/mln.jar -rr "${random_ratio}" -rb "${rule_batch}" -et "${event_threshold}" \
     -t ${threads} -tg "${start_time_gap}" -d "${data_base}" -r "${exp_base}"/tlogic_rules_"${walk_num}".txt -s "${MLN_SEED_JAVA}" \
     -tr "${min_rule_conf}" -ms "${min_rule_body_support}" -i "${iterations}" -lr "${learn_rate}" -sr "${mln_base}"/rules.txt \
     -sp "${mln_base}"/pred_hidden.txt -lt "${mln_base}"/test_linked_batch.txt -an "${mln_base}"/annotation.txt
