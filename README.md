@@ -18,7 +18,7 @@ Our codebase is partially built upon the following open-source projects. We sinc
 
 * Ubuntu 22.04 / 24.04
 * Python >= 3.8
-* CUDA >= 11.8 (if using GPU acceleration)
+* CUDA >= 11.6 (if using GPU acceleration)
 * java runtime environment >= 11
 
 ### Setup Environment
