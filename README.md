@@ -1,17 +1,21 @@
-## TLogicNet
+
+# TLogicNet
 
 ------------------------------
+
 ## 📌 1. Overview
 
 A collaborative framework of logic rule-based model and neural network-based model for Temporal Knowledge Graph Completion.
 
 ### 🙏 Acknowledgments
+
 Our codebase is partially built upon the following open-source projects. We sincerely thank the authors for their excellent work and for sharing their code:
 
 * [TLogic](https://github.com/liu-yushan/TLogic) - Used the rule generation code for the logical rule module.
 * [ECEformer](https://github.com/seeyourmind/TKGElib) - Used as neural network module.
 
 ------------------------------
+
 ## ⚙️ 2. Installation
 
 ### Prerequisites
@@ -22,9 +26,10 @@ Our codebase is partially built upon the following open-source projects. We sinc
 * java runtime environment >= 11
 
 ### Setup Environment
+
 1). Clone this repository and install the required dependencies via requirements.txt:
 
-```
+```shell
 pip install -r requirements.txt
 ```
 
@@ -35,9 +40,10 @@ pip install -r requirements.txt
 4). The source code of `mln/mln.jar` see [here](#todo)(coming soon).
 
 ------------------------------
+
 ## 🚀 3. Running
 
-```
+```shell
 sh exp_tece.sh
 ```
 
