@@ -22,15 +22,17 @@ Our codebase is partially built upon the following open-source projects. We sinc
 * java runtime environment >= 11
 
 ### Setup Environment
-Clone this repository and install the required dependencies via requirements.txt:
+1). Clone this repository and install the required dependencies via requirements.txt:
 
 ```
 pip install -r requirements.txt
 ```
 
-Follow [our fork of ECEformer](https://github.com/LeetJoe/TKGElib) to install the TKGE package.
+2). Follow [our fork of ECEformer](https://github.com/LeetJoe/TKGElib) to install the TKGE package.
 
-The source code of `mln/mln.jar` see [here](#todo)(coming soon).
+3). Download the jar archive [Apache Commons CLI](https://commons.apache.org/cli/download_cli.cgi) (version >= 1.9.0) and put it into the `mln` directory.
+
+4). The source code of `mln/mln.jar` see [here](#todo)(coming soon).
 
 ------------------------------
 ## 🚀 3. Running
